@@ -62,8 +62,9 @@ export function Services() {
                 key={service.id}
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
+                whileHover={{ y: -10, scale: 1.02 }}
                 transition={{ duration: 0.6, delay: index * 0.15 }}
-                className="group relative p-8 glass rounded-xl border-white/5 hover:border-brand-neon/50 transition-all duration-500 overflow-hidden"
+                className="group relative p-8 glass rounded-xl border-white/5 hover:border-brand-neon hover:shadow-[0_0_30px_rgba(255,0,60,0.2)] transition-all duration-500 overflow-hidden cursor-pointer"
               >
                 {/* Background glow on hover */}
                 <div className="absolute inset-0 bg-gradient-to-br from-brand-neon/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>

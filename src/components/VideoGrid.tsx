@@ -7,8 +7,8 @@ import { VideoModal } from './VideoModal';
 // Mock video data with YouTube embed URLs
 const videos = [
   { id: 1, title: 'Music Video Edit', thumbnail: 'https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?auto=format&fit=crop&q=80&w=800', url: 'https://www.youtube.com/embed/jfKfPfyJRdk' },
-  { id: 2, title: 'Corporate Documentary', thumbnail: 'https://images.unsplash.com/photo-1516280440502-a16f6b5b5424?auto=format&fit=crop&q=80&w=800', url: 'https://www.youtube.com/embed/9bZkp7q19f0' },
-  { id: 3, title: 'Commercial Spot', thumbnail: 'https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&q=80&w=800', url: 'https://www.youtube.com/embed/LXb3EKWsInQ' },
+  { id: 2, title: 'Corporate Documentary', thumbnail: '/corporate_documentary.png', url: 'https://www.youtube.com/embed/9bZkp7q19f0' },
+  { id: 3, title: 'Commercial Spot', thumbnail: '/commercial_spot.png', url: 'https://www.youtube.com/embed/LXb3EKWsInQ' },
   { id: 4, title: 'Social Media Reel', thumbnail: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=800', url: 'https://www.youtube.com/embed/1la4h24k07I' },
   { id: 5, title: 'Product Launch', thumbnail: 'https://images.unsplash.com/photo-1542204165-65bf26472b9b?auto=format&fit=crop&q=80&w=800', url: 'https://www.youtube.com/embed/jNQXAC9IVRw' },
   { id: 6, title: 'Event Highlight', thumbnail: 'https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&q=80&w=800', url: 'https://www.youtube.com/embed/VvU278bZ2mU' },
