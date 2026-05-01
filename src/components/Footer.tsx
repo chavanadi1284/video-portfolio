@@ -6,7 +6,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex items-center gap-2">
           <Video className="w-6 h-6 text-brand-neon" />
-          <span className="text-lg font-bold tracking-wider uppercase">Brand<span className="text-brand-neon">Boosters</span></span>
+          <span className="text-lg font-bold tracking-wider uppercase">Video<span className="text-brand-neon">Pro</span></span>
         </div>
         
         <div className="flex items-center gap-6 text-sm text-gray-500 uppercase tracking-widest">
@@ -16,7 +16,7 @@ export function Footer() {
         </div>
         
         <div className="text-sm text-gray-600">
-          &copy; {new Date().getFullYear()} BrandBoosters. All rights reserved.
+          &copy; {new Date().getFullYear()} VideoPro. All rights reserved.
         </div>
       </div>
     </footer>

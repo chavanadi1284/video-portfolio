@@ -15,7 +15,7 @@ export function Navbar() {
     >
       <div className="flex items-center gap-2">
         <Video className="w-8 h-8 text-brand-neon" />
-        <span className="text-xl font-bold tracking-wider uppercase">Brand<span className="text-brand-neon">Boosters</span></span>
+        <span className="text-xl font-bold tracking-wider uppercase">Video<span className="text-brand-neon">Pro</span></span>
       </div>
       <div className="hidden md:flex items-center gap-8 text-sm font-medium tracking-widest uppercase">
         <a href="#showreel" className="hover:text-brand-neon transition-colors duration-300">Showreel</a>
